@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[16]:
+# In[1]:
 
 
 from collections import Counter
@@ -11,7 +11,7 @@ import pickle
 import json
 
 def main(filename):
-    txtfile=open("i_have_a_dream.txt")
+    txtfile=open(filename)
     lines=txtfile.readlines()
     all_words=[]
     for line in lines:
